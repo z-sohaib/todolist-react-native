@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content: {
-    backgroundColor: 'pink',
     padding: 40,
     flex: 1,
   },
