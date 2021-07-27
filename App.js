@@ -6,9 +6,9 @@ import AddTodo from './components/addTodo';
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { text: 'buy coffee', key: '1' },
-    { text: 'create an app', key: '2' },
-    { text: 'play on the switch', key: '3' },
+    { text: 'nwali co-manager dev gdg', key: '1' },
+    { text: 'nkamlo shellmates website', key: '2' },
+    { text: 'naclassi m3a 10 lwala fel promo next year', key: '3' },
   ]);
 
   const pressHandler = (key) => {
@@ -58,9 +58,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content: {
+    backgroundColor: 'pink',
     padding: 40,
+    flex: 1,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   },
 });
