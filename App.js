@@ -6,9 +6,9 @@ import AddTodo from './components/addTodo';
 
 export default function App() {
   const [todos, setTodos] = useState([
-    { text: 'nwali co-manager dev gdg', key: '1' },
-    { text: 'nkamlo shellmates website', key: '2' },
-    { text: 'naclassi m3a 10 lwala fel promo next year', key: '3' },
+    { text: 'Meeting with the boss', key: '1' },
+    { text: 'Cleaning the house', key: '2' },
+    { text: 'Practising sport', key: '3' },
   ]);
 
   const pressHandler = (key) => {
